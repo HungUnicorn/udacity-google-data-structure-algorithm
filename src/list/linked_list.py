@@ -9,13 +9,13 @@ Then, use "Test Run" and "Submit" to run the test cases
 at the bottom."""
 
 
-class Element(object):
+class Element:
     def __init__(self, value):
         self.value = value
         self.next = None
 
 
-class LinkedList(object):
+class LinkedList:
     def __init__(self, head=None):
         self.head = head
 

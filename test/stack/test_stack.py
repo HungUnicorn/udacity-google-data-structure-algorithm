@@ -12,7 +12,7 @@ def stack():
     return stack
 
 
-def stack_op(stack):
+def test_stack_op(stack):
     e2 = Element(2)
     e3 = Element(3)
     e4 = Element(4)
