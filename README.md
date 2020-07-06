@@ -4,5 +4,6 @@ The code and tests for the [udacity course - data structure and algorithm provid
 
 The course uses python and includes exercises for
 - list-based collection
+- searching and sorting
 
 The `master` branch contains tests and unimplemented code, and the `solution` branch contains the solution
