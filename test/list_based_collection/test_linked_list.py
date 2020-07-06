@@ -1,4 +1,4 @@
-from src.list.linked_list import Element, LinkedList
+from src.list_based_collection.linked_list import Element, LinkedList
 import pytest
 
 
