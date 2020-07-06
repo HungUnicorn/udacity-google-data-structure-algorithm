@@ -8,17 +8,18 @@ def q():
     q = Queue(1)
     q.enqueue(2)
     q.enqueue(3)
+    return q
 
 
-def test_peek():
+def test_peek(q):
     assert 1 == q.peek()
 
 
-def test_deque():
+def test_deque(q):
     assert 1 == q.dequeue()
 
 
-def test_enqueue():
+def test_enqueue(q):
     q.enqueue(4)
     assert 1 == q.dequeue()
     assert 2 == q.dequeue()
