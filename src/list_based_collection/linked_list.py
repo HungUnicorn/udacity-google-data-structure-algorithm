@@ -2,7 +2,7 @@
 Add three functions to the LinkedList.
 "get_position" returns the element at a certain position.
 The "insert" function will add an element to a particular
-spot in the list.
+spot in the list_based_collection.
 "delete" will delete the first element with that
 particular value.
 Then, use "Test Run" and "Submit" to run the test cases

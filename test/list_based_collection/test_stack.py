@@ -1,7 +1,7 @@
-from src.list.linked_list import Element
+from src.list_based_collection.linked_list import Element
 import pytest
 
-from src.stack.stack import Stack
+from src.list_based_collection.stack import Stack
 
 
 @pytest.fixture
